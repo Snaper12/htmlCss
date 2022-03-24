@@ -58,3 +58,68 @@ ul>li{Element $}*5 - упрощенное написание списка из 5
         </tr>
       </tbody>
     </table>
+
+Формы
+
+<form> - Задание формы в HTML
+      <div> - Отдельная строка
+        <label for="text2">Текст</label> - вставить текст перед окном формы for должно совпадать с id
+        <input type="text" id="text2" value="Текст по умолчанию" readonly /> - вывести форму ввода Value - текст в форме заполненным по умолчанию readonly - форма только для чтения
+      </div>
+      <div>
+        <label for="Email">Email</label> 
+        <input type="email" id="Email" placeholder="Введите email" /> -вывести форму email placeholder - серая строка в форме, пропадает при вводе в форму текста
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" /> - форма password - скрывает вводимый текст
+      </div>
+      <div>
+        <label for="number">number</label>
+        <input type="number" id="number" /> - форма имеет возможность переключать числа на +\- 1
+      </div>
+      <div>
+        <label for="Range">Range</label>
+        <input type="range" id="Range" min="0" max="10" step="1" /> - форма передвигающегося ползунка min max range - цена деления
+      </div>
+      <div>
+        <label for="date">date</label>
+        <input type="date" id="date" /> - форма вывода даты
+      </div>
+      <div>
+        <label for="color">color</label>
+        <input type="color" id="color" /> - форма выбора цвета
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" cols="15" rows="10"></textarea> - вывод формы ввода текста с большими свободными границами cols - ширина rows - высота
+      </div>
+      <div>
+        <label for="sex">Ваш пол</label>
+        <select id="sex"> - поле ввода выбора пола
+          <option value="male" selected>Мужчина</option> - значения всплывающих вариантов для выбора selected - значение по умолчанию
+          <option value="female">Женщина</option>
+          <option value="other">Другое</option>
+        </select>
+      </div>
+      <div>
+        <label>Количество работ</label>
+        <input type="radio" name="work" /> 1 - radio - выбор одного варианта из предложенных для этого все варианты надо обьединить в одну группу при помощи name
+        <input type="radio" name="work" /> 2
+        <input type="radio" name="work" /> 5
+        <input type="radio" name="work" /> 10+
+      </div>
+      <div>
+        <label>Любимая еда</label>
+        <input type="checkbox" name="food" /> картошка - checkbox - позволяет выбрать из списка много нужных пунктов. name -  так же обьединяет варианты выбора в одну группу
+        <input type="checkbox" name="food" /> хлеб
+        <input type="checkbox" name="food" /> яблоко
+        <input type="checkbox" name="food" /> молюски
+      </div>
+      <div>
+        <input type="submit" value="Отправить форму" /> - input - позволяет вывести кнопку отправить форму
+      </div>
+      <div>
+        <button type="submit">Отправить форму</button> - button альтернативный, чаще применяемый способ вызвать кнопку отправить
+      </div>
+    </form>
