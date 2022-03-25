@@ -123,3 +123,22 @@ ul>li{Element $}*5 - упрощенное написание списка из 5
         <button type="submit">Отправить форму</button> - button альтернативный, чаще применяемый способ вызвать кнопку отправить
       </div>
     </form>
+
+    Блоки
+
+    <div id="Block 1" class="card header"> - div выделяет часть сайта в отдельный блок с нового абзаца
+      <h3>Block 1</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <span class="color"> Dolorem, obcaecati?</span> - span - выделяет часть текста в отдельный блок без абзаца. При этом данному блоку можно присвоить ID или class. class можно группировать у отдельных блоков могут быть одинаковые классы. а вот  id = должен иметь только один блок, повторять для другого блока такй же ID нельзя.
+        В разделе head странице сайта под title можно создать <style> что даст нам возможность через (.card {
+        background-color: #eee;
+        padding: 10px;
+        margin-bottom: 10px;
+      }) .название класса задать его параметры, цвет и т д
+      </p>
+    </div>
+    сокращенный вызов
+    div.list - Создать div c классом list
+    div#list - Создать div c id list
+    аналогично создаются классы и ID для span. ol. ul и т д
