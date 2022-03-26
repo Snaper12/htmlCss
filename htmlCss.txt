@@ -146,4 +146,28 @@ ul>li{Element $}*5 - упрощенное написание списка из 5
     симантика
 
     вместо div применяется header - для заголовка, nav - для навигатора, article - для отдельных блоков и группы этих блоков выделяются в section, footer - для нижней части, aside - для боковых меню. в остальном это те же абзацы.
-    
+
+
+    css
+
+    h1 { - задать объект, к которому относится стиль
+  color: red;  - цвет шрифта
+  font-size: 50px; - размер шрифта
+  letter-spacing: 4px; - расстояние между буквами
+  border-bottom: 2px solid black; - подчеркнуть линией текст, указать толщину черты
+}
+body {
+  background: blue; - фон страницы 
+}
+
+
+cпособ прописать css - inline - непосредственно в строке кода html - <header style="border: 1px solid grey">
+                     - ccлкой в head html - <link rel="stylesheet" href="01_selectors.css" />, где 01_selectors - название html файла
+                     - в head html - <style>
+      body {
+        background: #ddd;
+      }
+      header {
+        color: blueviolet;
+      }
+    </style>
