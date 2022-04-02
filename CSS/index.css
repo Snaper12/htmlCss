@@ -7,8 +7,75 @@ body {
   background: #f1f1f1;
   color: #0f141e;
 }
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+  margin-bottom: 20px;
+}
 .info-text p {
   font-style: italic;
   font-weight: bold;
   color: #86898f;
+  margin: 0px;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+.card {
+  border-radius: 20px;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+  /* border: 8px solid brown; */
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0, 8;
+  color: red;
 }

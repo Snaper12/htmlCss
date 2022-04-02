@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto' sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: normal;
+  /* text-decoration: underline; 
+  text-decoration: line-through;*/
+  /* font: normal 20px 'Roboto', self-serif; */
+  font-style: italic;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+}
+
+/* .css p {
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: bold;
+} */
