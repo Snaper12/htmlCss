@@ -78,7 +78,7 @@ a:visited {
 @media (max-width: 450px) {
   .bg-yellow {
     width: 500px;
-    padding-right: 10px;
+    padding-right: 100px;
   }
 }
 
@@ -89,7 +89,7 @@ a:visited {
 @media (max-width: 450px) {
   .bg-red {
     width: 500px;
-    padding-right: 10px;
+    padding-right: 100px;
   }
 }
 .bg-green {
