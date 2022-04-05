@@ -75,10 +75,10 @@ a:visited {
   background: #fff9dc;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
   .bg-yellow {
-    width: 500px;
-    padding-right: 100px;
+    width: 420px;
+    padding-right: 10px;
   }
 }
 
@@ -86,12 +86,13 @@ a:visited {
   background: #fee9e9;
   padding-right: 7%;
 }
-@media (max-width: 450px) {
+@media (max-width: 420px) {
   .bg-red {
-    width: 500px;
-    padding-right: 100px;
+    width: 420px;
+    padding-right: 10px;
   }
 }
+
 .bg-green {
   background: #e5ffe7;
   width: 220px;
